@@ -7,3 +7,6 @@ appropriate metrics. Implement visualization tools to illustrate the predicted
 vs. actual prices and provide insights into the model's accuracy. Continuously
 update and refine the model to improve its predictive capabilities.
 (2023-2024)
+the code doesn't require any data uploading step as it will automatically take the current yr finance from yfinance but if any other data is to be added you can do it using the code 
+df= pd.read_csv("copy the desired file path")
+and replace df wherever needed
